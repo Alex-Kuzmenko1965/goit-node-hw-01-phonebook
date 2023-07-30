@@ -1,0 +1,36 @@
+{
+  "name": "goit-node-hw-01-phonebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-commander.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index-commander",
+    "dev": "nodemon index-commander"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Kuzmenko1965/goit-node-hw-01-phonebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18.13.0",
+    "npm": "8.19.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex-Kuzmenko1965/goit-node-hw-01-phonebook/issues"
+  },
+  "homepage": "https://github.com/Alex-Kuzmenko1965/goit-node-hw-01-phonebook#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.2"
+  }
+}
